@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Троєщиньска соціальна мережа - Troyeshina</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Calibri;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Q_XMD7T5fF--ZUzB5RPj1t363pbpGZh8z91N2swpGg&s=10');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;   /* вот ано! теперь дети идут вертикально */
+    align-items: center;      /* центрируем па гаризонтали, раз направление сменилось */
+    height: 150vh;
+    overflow: auto;           /* overflow: hidden убьет скролл, если контента больше экрана */
+}
+        header {
+            background: linear-gradient(#9994ff, #322ac9);
+            color: #fff;
+            height: 8vh;
+            position: fixed;
+            border: none;
+            border-radius: 0px 0px 10px 10px ;
+            width: 400px;
+            align-items: center;
+            overflow: hidden;
+        }
+
+header > * {
+  height: 100%; /* дочерние элементы займут всю высоту хедера */
+  display: flex;
+  align-items: center;
+}
+
+.posting {
+            background: #191564;
+            color: #fff;
+            border-radius: 6px ;
+            width: 400px;
+            height: 130px;
+}
+.posting textarea {
+            background: #fff;
+            color: #000;
+            width: 392px;
+            height: 90px;
+}
+.thepost {
+            background: #191564;
+            color: #fff;
+            width: 400px;
+}
+
+.theposthistory {
+    background: #fff;
+    color: #fff;
+    width: 400px;
+}
+
+::selection {
+  background: #352cd3;
+  color: #fff;
+}
+
+footer {
+        background: #191564;
+        color: #fff;
+        width: 400px;
+        height: 70px
+}
+
+header input {
+   background: #00000000;
+   color: #fff;
+   height: 20px;
+   width: 100px;
+}
+    </style>
+</head>
+<body>
+
+
+<header>
+    <div id="logo">
+     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" viewBox="0,0,58.2945,78.39303"><defs><linearGradient x1="240" y1="140.80349" x2="240" y2="219.19653" gradientUnits="userSpaceOnUse" id="color-1"><stop offset="0" stop-color="#211c85"/><stop offset="1" stop-color="#dfa100"/></linearGradient></defs><g transform="translate(-210.85275,-140.80349)"><g fill="url(#color-1)" stroke="none" stroke-width="0" stroke-miterlimit="10"><path d="M269.14725,192.34076c0,21.64675 -14.13842,26.85577 -30.236,26.85577c-0.12723,0 -0.2542,-0.00033 -0.38091,-0.00098l2.5354,-30.60325h16.95783l1.24435,-15.01978h-45.4701c4.93418,-16.8452 15.29807,-32.50221 25.11343,-32.76579c13.51455,-0.36291 30.236,29.88729 30.236,51.53404zM210.85275,192.34076c0,-1.22645 0.0467,-2.47818 0.13727,-3.74847h15.05595l-2.33184,28.14622c-7.87149,-3.29215 -12.86138,-10.41618 -12.86138,-24.39775zM235.20982,149.48581c-6.33463,0 -11.6196,5.02712 -11.80431,11.22839c-0.18471,6.20127 4.80078,11.22838 11.13541,11.22838c6.33463,0 11.6196,-5.02712 11.80431,-11.22838c0.18471,-6.20127 -4.80078,-11.22839 -11.13541,-11.22839z"/></g></g></svg><!--rotationCenter:29.147250000000014:39.19650986238719-->
+    <input type="text" placeholder="Щось шукаемо?">
+    </div>
+</header>
+<div class="theposthistory">
+<div>
+<p>троя!</p>
+</div>
+<div class="posting">
+<textarea id="lopata" placeholder="Тут буде найкрутіший опис соцмережі Троєщина"></textarea>
+<button class="postthis">↑</button>
+</div>
+<h3 style="color: #000;"><i>Дивіться далі</i></h3>
+<div class="thepost">
+    <h2>Ім'я</h2>
+    <p>JYSK відкривається у ТРЦ РайON!</p>
+</div>
+
+<p> </p>
+<footer>
+   <div class="logofooter">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" viewBox="0,0,361.58756,72.72134"><g transform="translate(-16.4449,-134.9501)"><g fill="#ffffff" stroke="none" stroke-width="0" stroke-miterlimit="10"><path d="M338.08129,158.88646v48.22708h-15.49593v-16.36558h-7.00407v16.36557h-15.49593v-48.22708h15.49593v16.36558h7.00407v-16.36558z"/><path d="M298.74796,159.01146v48.22708h-15.49593v-20.29396l-4.75407,20.04396h-0.25v0.25h-15.49593v-48.22708h15.49593v19.56098l4.62907,-19.81098z"/><path d="M65.55509,173.88443h-16.80713v33.72708h-15.49593v-33.72708h-16.80713v-15.49593h49.11018z"/><path d="M82.09796,207.67144h-15.49593l-0.29805,-38.91187l-0.07898,-10.31114h0.07898v-0.11988h17.56387c8.28427,0 15,6.71573 15,15v0.75c0,8.28427 -6.71573,15 -15,15h-1.81634zM83.55114,185.67049c5.1297,0 9.28815,-3.35044 9.28815,-7.4834v-0.37417c0,-4.13297 -4.15845,-7.4834 -9.28815,-7.4834z"/><path d="M147.64827,183c0,13.43705 -10.67502,24.32993 -23.84333,24.32993c-13.16831,0 -23.84333,-10.89288 -23.84333,-24.32993c0,-13.43705 10.67502,-24.32993 23.84333,-24.32993c13.16831,0 23.84333,10.89288 23.84333,24.32993zM123.80494,168.35917c-7.92419,0 -14.34801,6.55492 -14.34801,14.64083c0,8.08591 6.42382,14.64083 14.34801,14.64083c7.92419,0 14.34801,-6.55492 14.34801,-14.64083c0,-8.08591 -6.42382,-14.64083 -14.34801,-14.64083z"/><path d="M172.80494,207.32993c-13.16831,0 -23.84333,-10.89288 -23.84333,-24.32993c0,-13.43705 10.67502,-24.32993 23.84333,-24.32993c10.08346,0 18.70497,6.38707 22.19101,15.41271h-10.8104c-2.62305,-3.48051 -6.74512,-5.72361 -11.38061,-5.72361c-4.99679,0 -9.39701,2.6064 -11.96617,6.55953h15.2768v15.49593h-15.68526c2.49371,4.32414 7.10205,7.2262 12.37463,7.2262c4.99617,0 9.39591,-2.60575 11.96521,-6.55805h10.5308c-3.26565,9.46389 -12.10451,16.24715 -22.49601,16.24715z"/><path d="M261.27861,191.8125v15.25h-63.25v-0.125h-0.375v-48h15.25v32.875h3.5v-32.875h15.25v32.875h3v-32.875h15.25v32.875z"/><path d="M354.33129,207.11354h-15.49593l9.36784,-48.22708h20.46142l9.36784,48.22708h-15.49593l-0.75087,-3.86558h-6.70351zM358.43392,185.99262l-1.21586,6.25942h2.43171z"/><path d="M53.16667,146.28343c0,6.25922 -5.14873,11.33334 -11.5,11.33334c-6.35127,0 -11.5,-5.07411 -11.5,-11.33334c0,-6.25922 5.14873,-11.33333 11.5,-11.33333c6.35127,0 11.5,5.07411 11.5,11.33333z"/></g></g></svg><!--rotationCenter:223.55509999999998:45.04990499999997-->
+    <p>Троєщина 2026-2026</p>
+   </div>
+</footer>
+</body>
+</html>
